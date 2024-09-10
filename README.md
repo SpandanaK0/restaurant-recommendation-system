@@ -22,28 +22,33 @@ The Restaurant Recommendation System is a Python-based project that uses the Yel
   pip install requests
 
 Installation
-  Clone this repository:
-    git clone https://github.com/your-username/restaurant-recommendation-system.git
-    
-  Navigate into the project folder:
-    cd restaurant-recommendation-system
-    
-  Install the required dependencies:
-    pip install -r requirements.txt
-
+Clone this repository:
+bash
+Copy code
+git clone https://github.com/your-username/restaurant-recommendation-system.git
+Navigate into the project folder:
+bash
+Copy code
+cd restaurant-recommendation-system
+Install the required dependencies:
+bash
+Copy code
+pip install -r requirements.txt
+Usage
 Obtain your Yelp API Key:
 Visit the Yelp Developer page and follow the instructions to generate your API key.
-
-
 Set up your API Key:
-  In the project folder, create a .env file and store your API key as follows:
-    YELP_API_KEY=your_api_key_here
-
+In the project folder, create a .env file and store your API key as follows:
+makefile
+Copy code
+YELP_API_KEY=your_api_key_here
 Run the Program:
-  python main.py
-
+bash
+Copy code
+python main.py
 Input Details:
-  Enter your location, the minimum rating, and the search radius to get restaurant recommendations.
+Enter your location, the minimum rating, and the search radius to get restaurant recommendations.
+
 
 
 
